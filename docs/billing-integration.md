@@ -55,6 +55,7 @@ capture status pending until the reservation's delivery outcome is eligible
 for capture; release a reservation if persistence fails before its outcome is
 durably recorded.
 
+
 ## Capture reconciliation
 
 The worker runs a background capture reconciler for pending message and
